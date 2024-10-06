@@ -1,113 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello world</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="Code.html">ACCUEIL</a></li>
-                <li><a href="#about">A PROPOS</a></li>
-                <li> <a href="work">FORMATION</a></li>
-                <li><a href="resume">COURS</a></li>
-                <li><a href="contact">CONTACT</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mon site</title>
+    </head>
 
-    <br><br>
 
-    <section>
-        <h1>A PROPOS</h1>
-        <form>
-            <label for="name">Nom</label>
-            <input type="text" id="name">
-            <br><br>
-            <label for="email">email</label>
-            <input type="email" id="email" placeholder="email@ggg.com">
-            <br><br>
-            <label for="passeword">mot de passe</label>
-            <input type="password" id="passeword">
-            <br><br>
-            <label for="submit"></label>
-            <input type="submit" value="Envoyer">
-            <br><br>
-        </form>
-    
-    </section>
-
-    <section id="work">
-        <h1>FORMATION</h1>
-        <img src="Lion.jpg" width="560" height="315" alt="Mon image">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Rt7MSIMHOT0?si=3renbJr-W5EM49Yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-
-    <section>
-        <h1>COURS</h1>
-        <ol type="A">
-            <li>PYTHON</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JAVA</li>
-        </ol>
-    </section>
-
-    <section>
-        <table>
-            <caption>Gestion du bar</caption>
-            <thead>
-                <tr>
-                    <th>Fournisseurs</th>
-                    <th>Produits</th>
-                    <th>Date de livraison</th>
-                    <th>Somme</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>SOBOA</th>
-                    <td>Casier bière</td>
-                    <td>11/10/2024</td>
-                    <td>12.000</td>
-                </tr>
-
-                <tr>
-                    <th>DEPOT HENRY</th>
-                    <td>Casier vin</td>
-                    <td>11/11/2024</td>
-                    <td>20.000</td>
-                </tr>
-
-                <tr>
-                    <th>DEPOT CENTRAL</th>
-                    <td>Champagne</td>
-                    <td>11/12/2024</td>
-                    <td>50.000</td>
-                </tr>   
-            </tbody>
-
-            <tfoot>
-                <tr>
-                    <th colspan="3">TOTAL</th>
-                    <td>82.000</td>
-                </tr>
-            </tfoot>
-        </table>
-    </section>
-
-    <footer>
-        copyright : 2024
-        éditeur : Alphonse
-    </footer>
-    
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#ACCUEIL">ACCUEIL</a></li>
+                    <li><a href="#FORMATION">FORMATION</a></li>
+                    <li><a href="#CAMPUS">CAMPUS</a></li>
+                    <li><a href="#CONTACT">CONTACT</a></li>
+                    <li><a href="#MEDIATEQUE">MEDIATEQUE</a></li>
+                    <li><a href="https://www.gomycode.com" target="_blank">GOMYCODE</a></li>
+                </ul>
+            </nav>
+        </header>
         
-    
-    
+        <div id="ACCUEIL">
+            <section>
+                <h1>ACCUEIL</h1>
+                <p>
+                    <span style="text-align: justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br>
+                    psum iure itaque sequi. I Eius mollitia natus magni.<br><br>
+                    Rerum fugiat totam numquam quasi, dolore voluptatibus.<br><br>
+                    Accusamus quos sit quas laudantium ut iusto?<br><br>
+                    </span>
+                </p>
+            </section>
+        </div>
 
 
+        <div id="FORMATION">
+            <section>
+                <h1>FORMATION</h1>
+                <ol type="A">
+                    <li>CYBERSECURITE</li>
+                    <li>WEB DEVELOPPEMENT</li>
+                    <li>DATA SCIENCE</li>
+                    <li>MARKETING DIGITAL</li>
+                    <li>PYTHON</li>
+                </ol>
+            </section>
+        </div>
 
-</body>
+
+        <div id="CAMPUS">
+            <section>
+                <h1>CAMPUS UNIVERSITAIRE</h1>
+                <table>
+                    <caption>Tableau récaputilatif</caption>
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Niveau</th>
+                            <th>Année</th>
+                            <th>Cours</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Alphonse</td>
+                            <td>Master 2</td>
+                            <td>2024</td>
+                            <td>Web développement</td>
+                        </tr>
+                    </tbody>
+                   
+                </table>
+            </section>
+        </div>
+
+
+        <div id="CONTACT">
+            <section>
+                <h1>NOUS JOINDRE</h1>
+                <form>
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" placeholder="Veuillez entrer votre nom">
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="veuillez entrer votre adresse email">
+                    <br><br>
+                    <label for="passeword">Mot de passe</label>
+                    <input type="passeword" id="passeword">
+                    <br><br>
+                    <textarea name="text" id="Commentaire" cols="40" rows="10" placeholder="Que pensez-vous de GOMYCODE"></textarea>
+                    <br><br>
+                    <input type="submit" id="submit">
+                </form>
+            </section>
+        </div>
+
+        <div id="MEDIATEQUE">
+            <section>
+                <h1>MULTIMEDIA</h1>
+                <img src="Images/Lion.jpg" width="200" height="200" alt="Mon image">
+                <iframe src="https://www.youtube.com/embed/NYu5TAyC3jY?si=GINzh9rhd591P6cS" width="200" height="200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+        </div>
+    </body>
 </html>
